@@ -1,0 +1,115 @@
+s {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px dashed grey;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+}
+
+header {
+    background-image: url(/pictures/main.jpg);
+    padding: 1px;
+    margin: 0px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-left: 20%;
+}
+
+.motto {
+    text-transform: capitalize;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arrow {
+    height: 100px;
+}
+
+.section {
+    /* margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+    display: block;
+    width: 50%;
+    font-size: 12px;
+    /* padding: 25px; */
+    /* vertical-align: auto; */
+}
+
+.section2 {
+    border: 0px;
+    border-top: 7px solid rgb(209, 101, 0);
+    border-radius: 5px 5px 0px 0px;
+    background-image: url(./pictures/bear.jpg);
+    background-color: rgba(29, 23, 23, 0.726);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: grey;
+    box-sizing: border-box;
+    /* padding-top: 50px; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    aspect-ratio: 4/3;
+}
+
+.intext {
+    color: orange;
+}
+
+.header2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.button {
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: orange;
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-picture {
+    border-radius: 5px;
+}
+
+.article-p {}
+
+.article {
+    width: 48%;
+}
